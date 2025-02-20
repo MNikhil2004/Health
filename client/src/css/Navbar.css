@@ -1,0 +1,46 @@
+/* Navbar Styling */
+nav {
+    background-color: #007bff; /* Bootstrap blue */
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar Title */
+  nav h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Login Button */
+  nav button {
+    background-color: rgb(233, 14, 14);
+    color: #ff000d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  nav button:hover {
+    background-color: #e01327;
+    color: rgb(24, 215, 151);
+  }
+  
+  /* Main Content Styling */
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Ensure Full Height */
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
