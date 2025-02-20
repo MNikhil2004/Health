@@ -15,5 +15,6 @@ mongoose.connect("mongodb://localhost:27017/yourdbname", {
 .catch((err) => console.error("MongoDB connection error:", err));
 
 app.use("/api", authRoutes); // Include auth and admin routes
+// app.use("/api", adminRoutes);
 
 app.listen(5000, () => console.log("Server running on port 5000"));
